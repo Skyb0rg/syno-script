@@ -45,3 +45,18 @@ http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?processlist
 http://192.168.1.1:5000/webman/3rdparty/Syno-Script/syno-script.cgi?synodown  
 http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?<command>  
 
+
+
+#Addons:
+
+Homematic CCU1 & CCU2  
+------------
+
+Little Script for shutting down the Diskstation
+
+you can copy it to the `/usr/local/addons/cuxd/extra` Directory  
+and start it by using CUXD:  
+`sh /usr/local/addons/cuxd/extra/syno-shutdown.sh <ip> <port>`  
+
+Example:
+`sh /usr/local/addons/cuxd/extra/syno-shutdown.sh 192.168.1.100 5000`  
