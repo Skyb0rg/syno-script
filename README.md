@@ -41,6 +41,10 @@ synodown - shuts the Diskstation down
 
 
 Examples:
+
 http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?processlist
+
 http://192.168.1.1:5000/webman/3rdparty/Syno-Script/syno-script.cgi?synodown
+
 http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?<command>
+
