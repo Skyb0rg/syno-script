@@ -11,26 +11,32 @@ The CGI-Script can:
 ... more will comming soon
 
 Installation:
+------------
 create directory on the Diskstation
 
-(`DS412> mkdir /usr/syno/synoman/webman/3rdparty/Syno-Script`)
-(`DS412> cd /usr/syno/synoman/webman/3rdparty/Syno-Script`)
-(`DS412> cat >syno-script`)
+Option1:
 
-Past the Code into this Window
-Quit with Ctrl + D
+`DS412> mkdir /usr/syno/synoman/webman/3rdparty/Syno-Script`
+`DS412> cd /usr/syno/synoman/webman/3rdparty/Syno-Script`
+`DS412> cat >syno-script`
 
-You can also copy the file to folder, if you know how ;)
+
+1. Past the Code into this Window 
+2. quit with Ctrl + D
+ 
+Option2:
+you can also copy the file to folder, if you know how ;)
 
 give the file the right permission, need execute rights on the Diskstation
 
-(`DS412> chmod oug+x syno-script.cgi
+`DS412> chmod oug+x syno-script.cgi`
 
 Now you can open the URL in you Browser:
 
-(`http://<yourDS>:5000/webman/3rdparty/Syno-Script/test1.cgi?<command>`)
+`http://<yourDS>:5000/webman/3rdparty/Syno-Script/test1.cgi?<command>`
 
 Commands:
+------------
 
 1. processlist - list all processes on the Diskstation
 2. synodown - shuts the Diskstation down
