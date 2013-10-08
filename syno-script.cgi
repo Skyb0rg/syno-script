@@ -1,4 +1,9 @@
 #!/bin/sh
+# syno-script
+# Version 0.1
+# https://github.com/Skyb0rg/syno-script
+# First running code
+
 header="Content-type: text/html\n\n<html><head><title>Syno-Script</title></head><body>"
 footer="</body></html>"
 case $1 in
