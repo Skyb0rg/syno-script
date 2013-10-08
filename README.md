@@ -15,7 +15,9 @@ Installation:
 create directory on the Diskstation
 
 DS412> mkdir /usr/syno/synoman/webman/3rdparty/Syno-Script
+
 DS412> cd /usr/syno/synoman/webman/3rdparty/Syno-Script
+
 DS412> cat >syno-script
 
 Past the Code into this Window
@@ -28,10 +30,13 @@ give the file the right permission, need execute rights on the Diskstation
 DS412> chmod oug+x syno-script.cgi
 
 Now you can open the URL in you Browser:
+
 http://<yourDS>:5000/webman/3rdparty/Syno-Script/test1.cgi?<command>
 
 Commands:
+
 processlist - list all prozessen on the Diskstation
+
 synodown - shuts the Diskstation down
 
 
