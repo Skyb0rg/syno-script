@@ -24,6 +24,7 @@ Quit with Ctrl + D
 You can also copy the file to folder, if you know how ;)
 
 give the file the right permission, need execute rights on the Diskstation
+
 DS412> chmod oug+x syno-script.cgi
 
 Now you can open the URL in you Browser:
