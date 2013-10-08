@@ -11,13 +11,10 @@ The CGI-Script can:
 ... more will comming soon
 
 Installation:
-
 create directory on the Diskstation
 
 DS412> mkdir /usr/syno/synoman/webman/3rdparty/Syno-Script
-
 DS412> cd /usr/syno/synoman/webman/3rdparty/Syno-Script
-
 DS412> cat >syno-script
 
 Past the Code into this Window
@@ -36,15 +33,11 @@ http://<yourDS>:5000/webman/3rdparty/Syno-Script/test1.cgi?<command>
 Commands:
 
 processlist - list all processes on the Diskstation
-
 synodown - shuts the Diskstation down
 
 
 Examples:
-
 http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?processlist
-
 http://192.168.1.1:5000/webman/3rdparty/Syno-Script/syno-script.cgi?synodown
-
 http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?<command>
 
