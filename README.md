@@ -6,7 +6,7 @@ Manage operations on the diskstation by cgi-website
 Projekt Status: Alpha ... but works like a charm
 
 The CGI-Script can:
-- show prozesslist 
+- show processlist 
 - poweroff the diskstation
 ... more will comming soon
 
@@ -30,11 +30,11 @@ Now you can open the URL in you Browser:
 http://<yourDS>:5000/webman/3rdparty/Syno-Script/test1.cgi?<command>
 
 Commands:
-prozesslist - list all prozessen on the Diskstation
+processlist - list all prozessen on the Diskstation
 synodown - shuts the Diskstation down
 
 
 Examples:
-http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?prozesslist
+http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?processlist
 http://192.168.1.1:5000/webman/3rdparty/Syno-Script/syno-script.cgi?synodown
 http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?<command>
