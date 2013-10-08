@@ -16,34 +16,32 @@ create directory on the Diskstation
 
 Option1:
 
-`DS412> mkdir /usr/syno/synoman/webman/3rdparty/Syno-Script`
-`DS412> cd /usr/syno/synoman/webman/3rdparty/Syno-Script`
-`DS412> cat >syno-script`
+`DS412> mkdir /usr/syno/synoman/webman/3rdparty/Syno-Script`  
+`DS412> cd /usr/syno/synoman/webman/3rdparty/Syno-Script`  
+`DS412> cat >syno-script`  
 
 
-1. Past the Code into this Window 
-2. quit with Ctrl + D
+Past the Code into this Window  
+quit with Ctrl + D  
  
 Option2:
-you can also copy the file to folder, if you know how ;)
+you can also copy the file to folder, if you know how ;)  
 
-give the file the right permission, need execute rights on the Diskstation
-
+Give the file the right permission, need execute rights on the Diskstation  
 `DS412> chmod oug+x syno-script.cgi`
 
-Now you can open the URL in you Browser:
-
+Now you can open the URL in you Browser:  
 `http://<yourDS>:5000/webman/3rdparty/Syno-Script/test1.cgi?<command>`
 
 Commands:
 ------------
 
-1. processlist - list all processes on the Diskstation
-2. synodown - shuts the Diskstation down
+processlist - list all processes on the Diskstation  
+synodown - shuts the Diskstation down  
 
 
-Examples:
-http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?processlist
-http://192.168.1.1:5000/webman/3rdparty/Syno-Script/syno-script.cgi?synodown
-http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?<command>
+Examples:  
+http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?processlist  
+http://192.168.1.1:5000/webman/3rdparty/Syno-Script/syno-script.cgi?synodown  
+http://DS412:5000/webman/3rdparty/Syno-Script/syno-script.cgi?<command>  
 
