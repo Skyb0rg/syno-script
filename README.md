@@ -35,7 +35,7 @@ http://<yourDS>:5000/webman/3rdparty/Syno-Script/test1.cgi?<command>
 
 Commands:
 
-processlist - list all prozessen on the Diskstation
+processlist - list all processes on the Diskstation
 
 synodown - shuts the Diskstation down
 
